@@ -1,0 +1,65 @@
+/* Global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.landing-page {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.jk-logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 3px 3px 10px gold; /* Shadow gold effect */
+}
+
+.content h1 {
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.content p {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.explore-btn {
+  background-color: transparent;
+  border: 2px solid gold;
+  color: gold;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: gold;
+  color: black;
+  transform: scale(1.1);
+}
